@@ -1,0 +1,14 @@
+/*.project-list {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.project-list h2 {
+    color: #666;
+}*/
+
+.project-list p {
+    color: #999;
+}

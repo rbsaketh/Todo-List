@@ -1,0 +1,23 @@
+/*.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 10%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.project h2 {
+    margin: 0;
+    color: #333;
+}
+
+.project p {
+    margin: 10px;
+    color: #666;
+}*/
+
+.project:hover {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.todos .todo {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todos .todo.low-priority {
+    background-color: #a5d6a7;
+}
+
+.todos .todo.medium-priority {
+    background-color: #ffcc80;
+}
+
+/*.todos .todo.high-priority {
+    background-color: #ef9a9a;
+}
+
+.todos .todo p {
+    margin: 0;
+}*/
